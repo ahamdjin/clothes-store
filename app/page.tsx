@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const ShowcaseCanvas = dynamic(() => import("../components/ShowcaseCanvas"), {
+const ShowcaseCanvas = dynamic(() => import("@/components/ShowcaseCanvas"), {
   ssr: false,
 });
 

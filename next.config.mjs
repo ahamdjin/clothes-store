@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Required for Cloudflare Workers deployment
-  experimental: {
-    serverComponentsExternalPackages: ["three"],
-  },
-  // Output standalone for Cloudflare
+  // Standard Next.js config for Vercel
   images: {
     unoptimized: true,
   },
